@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_Armor_6.mk
+	$(LOCAL_DIR)/omni_k10.mk
