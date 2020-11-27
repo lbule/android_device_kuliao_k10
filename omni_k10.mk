@@ -1,5 +1,5 @@
 # Release name
-PRODUCT_RELEASE_NAME := Armor_6
+PRODUCT_RELEASE_NAME := k10
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
@@ -8,11 +8,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_BRAND := Ulefone
-PRODUCT_DEVICE := Armor_6
-PRODUCT_MANUFACTURER := Ulefone
-PRODUCT_MODEL := Armor_6
-PRODUCT_NAME := omni_Armor_6
+PRODUCT_BRAND := KULIAO
+PRODUCT_DEVICE := k10
+PRODUCT_MANUFACTURER := KULIAO
+PRODUCT_MODEL := k10
+PRODUCT_NAME := omni_k10
 
 # enable stock zip packages flash
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
