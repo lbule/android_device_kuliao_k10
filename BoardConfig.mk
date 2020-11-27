@@ -1,5 +1,5 @@
 # Device path
-LOCAL_PATH := device/ulefone/Armor_6
+LOCAL_PATH := device/kuliao/k10
 
 # Architecture
 TARGET_ARCH := arm64
@@ -78,8 +78,6 @@ TW_INCLUDE_CRYPTO := true
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
 TW_MAX_BRIGHTNESS := 255
 TW_USE_TOOLBOX := true
-TW_EXTRA_LANGUAGES := true
-TW_DEFAULT_LANGUAGE := en
 
 TW_NO_USB_STORAGE := false
 TW_NO_SCREEN_BLANK := true
@@ -102,3 +100,7 @@ TW_CRYPTO_FS_OPTIONS := "nosuid,nodev,noatime,discard,noauto_da_alloc,data=order
 # Debug
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
+
+#Languages
+TW_EXTRA_LANGUAGES := true
+TW_DEFAULT_LANGUAGE := zh_CN
